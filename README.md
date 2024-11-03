@@ -24,7 +24,7 @@ datasets
         |-- Homo_sapiens.GRCh38.109.txt.gz
     |-- task03-homo-spiens/
         |-- Homo_sapiens.GRCh38.109.txt.gz
-    |-- task04-pathogenecity/
+    |-- task04-pathogenicity/
         |-- clinvar_20240805.missense_matched.txt.gz
         |-- clinvar_20240805.noncoding.txt.gz
     |-- task05-methylation/
@@ -33,13 +33,25 @@ code
     |-- task01-perplexity.ipynb
     |-- task02-clustering.ipynb
     |-- task03-homo-spiens.ipynb
-    |-- task04-pathogenecity.ipynb
+    |-- task04-pathogenicity.ipynb
     |-- task05-methylation.ipynb
     |-- utility.py
 env
+    |-- nt-env.yml
+    |-- gpn-env.yml
+    |-- hyena-env.yml
     |-- caduceus-env.yml
 ```
 
+## Tasks
+
+### Perplexity
+
+### Genomic region clustering
+
+### Supervised pathogenicity predictions
+
+### Supervised methylation percentage predictions
 
 ## Citation
 <a name="citation"></a>
