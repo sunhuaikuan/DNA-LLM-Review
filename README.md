@@ -14,10 +14,18 @@ Below, we describe the steps required for reproducing the experiments in the pap
 ```bash
 datasets
     |-- task01-perplexity/
+        |-- gnomad.v4.1.exon.txt.gz
+        |-- gnomad.v4.1.intergenic.txt.gz
+        |-- gnomad.v4.1.proximity.txt.gz
     |-- task02-clustering/
+        |-- Homo_sapiens.GRCh38.109.txt.gz
     |-- task03-homo-spiens/
+        |-- Homo_sapiens.GRCh38.109.txt.gz
     |-- task04-pathogenecity/
+        |-- clinvar_20240805.missense_matched.txt.gz
+        |-- clinvar_20240805.noncoding.txt.gz
     |-- task05-methylation/
+        |-- GSM6637962_CpG_coverage20_GRCh38.bed.gz
 code
     |-- task01-perplexity.ipynb
     |-- task02-clustering.ipynb
