@@ -6,14 +6,13 @@ This repository contains code for reproducing the results in the paper "DNA Larg
 
 ## Getting started in this repository
 
+### Prerequisite 
+
+Download the entire human genome fasta file [hg38.fa.gz](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz).
 
 ### Reproducing Experiments
 
-Below, we describe the steps required for reproducing the experiments in the paper.
-
-Download fasta (.fa format) file (of the entire human genome).
-
-The repository  structure should look like
+Below, we describe the steps required for reproducing the experiments in the paper. The repository  structure should look like
 
 ```bash
 datasets
