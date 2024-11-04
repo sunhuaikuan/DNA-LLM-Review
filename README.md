@@ -75,7 +75,7 @@ We consider interpreting missense variants and non-coding variants (including in
 
 ### Supervised methylation percentage predictions
 
-To have a meaning methylation percentage, methylation dataset includes sites with depth > 20. The target is to predict the percentage. We can use a flank region of 128  around the site and extract the averaged embedding for the two base pairs.
+To have a meaning methylation percentage, methylation dataset includes sites with depth > 20. The target is to predict the percentage. We use a flank region of 128  around the site and extract the averaged embedding for the two base pairs.
 
 ## Citation
 <a name="citation"></a>
