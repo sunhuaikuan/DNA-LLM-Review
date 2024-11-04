@@ -1,7 +1,7 @@
 
-# DNA Large Language Review
+# DNA Large Language Models Review
 
-This repository contains code for reproducing the results in the paper "DNA Large Language Review" [Huaikuan et al. (2024)](https://arxiv.org/xxxx).
+This repository contains code for reproducing the results in the paper "DNA Large Language Models Review" [Huaikuan et al. (2024)](https://arxiv.org/xxxx).
 
 
 ## Getting started in this repository
