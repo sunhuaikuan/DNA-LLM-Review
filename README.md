@@ -22,7 +22,7 @@ datasets
         |-- gnomad.v4.1.proximity.txt.gz
     |-- task02-clustering/
         |-- Homo_sapiens.GRCh38.109.txt.gz
-    |-- task03-homo-spiens/
+    |-- task03-genomic-regions/
         |-- Homo_sapiens.GRCh38.109.txt.gz
     |-- task04-pathogenicity/
         |-- clinvar_20240805.missense_matched.txt.gz
@@ -32,7 +32,7 @@ datasets
 code
     |-- task01-perplexity.ipynb
     |-- task02-clustering.ipynb
-    |-- task03-homo-spiens.ipynb
+    |-- task03-genomic-regions.ipynb
     |-- task04-pathogenicity.ipynb
     |-- task05-methylation.ipynb
     |-- utility.py
@@ -40,6 +40,7 @@ env
     |-- nt-env.yml
     |-- gpn-env.yml
     |-- hyena-env.yml
+    |-- dnabert2-env.yml
     |-- caduceus-env.yml
 ```
 
@@ -53,7 +54,7 @@ gnomad.v4.1.proximity.txt.gz includes variants in proximity regions of exons: in
 
 gnomad.v4.1.intergenic.txt.gz includes intergenic, upstream/downstream, and regulatory-region variants.
 
-### Genomic region clustering
+### Genomic region clustering and classification
 
 Homo_sapiens.GRCh38.109.txt.gz are Short genomic regions (<1000 ish base pairs, small RNAs >40 bp, ncRNA > 110 bp, all others > 150 bp) extracted from ensemble human annotations includeing  first exon, first intron, first 3’ UTR, first 5’ UTR, ncRNA, pseudogene, and small RNAs.
 
